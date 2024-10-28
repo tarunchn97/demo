@@ -1,0 +1,30 @@
+uuid: e1ef6e07-f1c4-413c-9c0f-e500c33de527
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aeaa28eb-59aa-4323-8099-ec748ed66e40'
+  module:
+    - block_content
+    - system
+  theme:
+    - demo
+id: demo_speakesblock
+theme: demo
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:aeaa28eb-59aa-4323-8099-ec748ed66e40'
+settings:
+  id: 'block_content:aeaa28eb-59aa-4323-8099-ec748ed66e40'
+  label: 'Speakes Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /speakers

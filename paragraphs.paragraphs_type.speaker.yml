@@ -1,0 +1,10 @@
+uuid: 65433d34-1acb-4fbb-bac2-a0dd7bee294d
+langcode: en-gb
+status: true
+dependencies: {  }
+id: speaker
+label: Speaker
+icon_uuid: null
+icon_default: null
+description: 'Speaker type paragraph.'
+behavior_plugins: {  }
